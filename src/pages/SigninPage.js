@@ -20,8 +20,8 @@ function SigninPage() {
   const history = useHistory();
   const { firebase } = useContext(FirebaseContext);
 
-  const [emailAddress, setEmailAddress] = useState("");
-  const [password, setPassword] = useState("");
+  const [emailAddress, setEmailAddress] = useState("elijahenix@gmail.com");
+  const [password, setPassword] = useState("Znation311@");
   const [error, setError] = useState("");
 
   const IsInvalid = password === "" || emailAddress === "";
@@ -33,8 +33,8 @@ function SigninPage() {
       .auth()
       .signInWithEmailAndPassword(emailAddress, password)
       .then(() => {
-        setEmailAddress("");
-        setPassword("");
+        setEmailAddress("elijahenix@gmail.com");
+        setPassword("Znation311@");
         history.push("/browse");
       })
       .catch((error) => setError(error.message));
