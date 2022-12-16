@@ -6,13 +6,12 @@ import 'firebase/auth';
 // import { seedDatabase } from '../seed';
 
 const config = {
-  apiKey: 'AIzaSyCev-C6AKuyxD8oXcGwuAyyGmWpo7INl3U',
-  authDomain: 'netflix-test01.firebaseapp.com',
-  databaseURL: 'https://netflix-test01.firebaseio.com',
-  projectId: 'netflix-test01',
-  storageBucket: 'netflix-test01.appspot.com',
-  messagingSenderId: '541152959854',
-  appId: '1:541152959854:web:38145f65984eef0cd3757f',
+     apiKey: "AIzaSyA74ZvfzfZVmopLVsbl88Y02CUaXNWGgwk",
+  authDomain: "roblox-29707.firebaseapp.com",
+  projectId: "roblox-29707",
+  storageBucket: "roblox-29707.appspot.com",
+  messagingSenderId: "1025034692104",
+  appId: "1:1025034692104:web:628690bd4a9e9bf83293bd",
 };
 
 const firebase = Firebase.initializeApp(config);
